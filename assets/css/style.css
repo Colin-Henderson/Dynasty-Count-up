@@ -1,8 +1,9 @@
 #countup p {
 display: inline-block;
 padding: 5px;
-font-size: 40px;
+font-size: 54px;
 text-align: center;
+font-weight: bold;
 }
 
 h3 , h4 {
@@ -12,4 +13,23 @@ h3 , h4 {
 ul {
 	text-align: center;
 	list-style-position: inside;
+}
+
+#king {
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border: solid 5px;
+    border-color: black;
+}
+
+.jumbotron {
+	background: #cdaa44;
+	border: solid 5px;
+    border-color: black;
+}
+
+body {
+	background: #65666a;
 }
